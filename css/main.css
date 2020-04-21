@@ -1,0 +1,108 @@
+.main-banner {
+  position: relative;
+}
+
+.main-ad {
+  position: absolute;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  transform: translate(70px, -275px)
+}
+
+body {
+  margin: 0;
+  background-color: #1B1B1B;
+  font-family: georgia, serif;
+}
+
+.h1 {
+  color: #fff;
+  font-family: "Bowlby One", sans-serif;
+  background-color: #111;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Bowlby One", sans-serif;
+  background-color: #111;
+}
+
+b {
+  font-family: "Berkshire Swash", sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Oswald, sans-serif;
+}
+
+p {
+  color: #fff;
+}
+
+h2 {
+  font-family: oswald, sans-serif;
+  color: #fff;
+}
+
+a:hover {
+  color: #9A2828;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #9A2828;
+  border: 2px #9A2828 solid;
+  font-family: Oswald, sans-serif;
+}
+
+.btn:hover {
+  background-color: #581818;
+  border: 2px #581818 solid;
+}
+
+footer {
+  background-color: #111;
+}
+
+ol {
+  color: #fff;
+}
+
+legend {
+  color: #fff;
+  font-family: oswald, sans-serif;
+}
+
+:required {
+  border-radius: 8px;
+}
+
+.footer-titles {
+  font-family: oswald, sans-serif;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+    .main-ad {
+      position: absolute;
+      color: #fff;
+      font-family: Oswald, sans-serif;
+      transform: translate(40px, -320px)
+    }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .main-ad {
+    position: absolute;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    transform: translate(100px, -500px)
+  }
+}
