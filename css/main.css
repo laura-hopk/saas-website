@@ -6,12 +6,11 @@
   position: absolute;
   color: #fff;
   font-family: Oswald, sans-serif;
-  transform: translate(70px, -275px)
+  transform: translate(70px, -275px);
 }
 
 body {
-  margin: 0;
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   font-family: georgia, serif;
 }
 
@@ -47,7 +46,7 @@ h2 {
 }
 
 a:hover {
-  color: #9A2828;
+  color: #9a2828;
 }
 
 ul {
@@ -55,8 +54,8 @@ ul {
 }
 
 .btn {
-  background-color: #9A2828;
-  border: 2px #9A2828 solid;
+  background-color: #9a2828;
+  border: 2px #9a2828 solid;
   font-family: Oswald, sans-serif;
 }
 
@@ -82,7 +81,6 @@ legend {
   border-radius: 8px;
   font-family: oswald, sans-serif;
   color: #000;
-
 }
 
 .birthday {
@@ -123,12 +121,12 @@ td {
 
 @media only screen and (min-width: 38em) {
 
-    .main-ad {
-      position: absolute;
-      color: #fff;
-      font-family: Oswald, sans-serif;
-      transform: translate(40px, -320px)
-    }
+  .main-ad {
+    position: absolute;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    transform: translate(40px, -320px);
+  }
 
 }
 
@@ -138,7 +136,7 @@ td {
     position: absolute;
     color: #fff;
     font-family: Oswald, sans-serif;
-    transform: translate(100px, -500px)
+    transform: translate(100px, -500px);
   }
 
 }
