@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>The Vault - Home</title>
+  <title>The Vault - About Us</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -17,7 +17,7 @@
       <nav>
         <ul class="grid text-center list-group grid-middle">
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a href="tour.html">About</a></li>
-          <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a class="btn" href="">View Plans</a></li>
+          <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a class="btn" href="...">View Plans</a></li>
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a href="sign-in.html">Sign In</a></li>
         </ul>
       </nav>
@@ -30,23 +30,28 @@
     </div>
     <div class="main-banner-text">
       <h2 class="normal tenamega push-1-2">Keep Your<br> <b>Secrets</b></h2>
-      <a class="btn" href="">View Plans</a>
+      <a class="btn" href="...">View Plans</a>
     </div>
   </div>
   <main>
-  <div class="grid island grid-middle">
-    <h2 class="unit xs-1 s-1 m-1 l-1 gutter-2 push-0 exa">Words from Loyal Customers</h2>
-    <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
-      <img class="img-flex" src="images/girl-in-red.jpg" alt="">
+    <section>
+    <div class="grid island grid-middle">
+      <h2 class="unit xs-1 s-1 m-1 l-1 gutter-2 push-0 exa">Words from Loyal Customers</h2>
+      <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
+        <img class="img-flex" src="images/girl-in-red.jpg" alt="">
+      </div>
+      <article>
+      <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“My passwords were all over the place, on scrap paper, notes in my phone, and everywhere else you can think of. Now with The Vault, I can see all my passwords at any given time and they are all kept in one safe place. I never worry about forgetting my passwords ever again!” <br>-Emily, 28, long time user</p>
+      </article>
+      <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
+        <img class="img-flex" src="images/girl-in-red.jpg" alt="">
+      </div>
+      <article>
+      <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“It is perfect for my business. I have many accounts for many different softwares and websites and I was having a very difficult time keeping track of them all. There is no other software like The Vault. I have had so much success with it and I will always support and use The Vault. It has made my life so much easier.”<br>-Michelle, 24, long time user</p>
+    </article>
     </div>
-    <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“My passwords were all over the place, on scrap paper, notes in my phone, and everywhere else you can think of. Now with The Vault, I can see all my passwords at any given time and they are all kept in one safe place. I never worry about forgetting my passwords ever again!” <br>-Emily, 28, long time user</p>
-
-    <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
-      <img class="img-flex" src="images/girl-in-red.jpg" alt="">
-    </div>
-    <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“It is perfect for my business. I have many accounts for many different softwares and websites and I was having a very difficult time keeping track of them all. There is no other software like The Vault. I have had so much success with it and I will always support and use The Vault. It has made my life so much easier.”<br>-Michelle, 24, long time user</p>
-  </div>
-</main>
+    </section>
+  </main>
 
   <footer>
     <div class="grid grid-top island">
@@ -75,12 +80,14 @@
           <fieldset>
             <legend class="normal tera text-center">Sign In</legend>
             <input id="username" type="text" placeholder="Username" required>
+            <label for="username" class="visually-hidden">Username</label>
             <input id="password" type="password" placeholder="Password" required>
+            <label for="password" class="visually-hidden">Password</label>
           </fieldset>
         </form>
       </div>
     </div>
-    </footer>
+  </footer>
 
-  </body>
-  </html>
+</body>
+</html>
