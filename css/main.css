@@ -80,6 +80,13 @@ legend {
 
 :required {
   border-radius: 8px;
+  font-family: oswald, sans-serif;
+  color: #000;
+
+}
+
+.birthday {
+  font-family: oswald, sans-serif;
 }
 
 .footer-titles {
@@ -94,6 +101,25 @@ a:focus {
   background-color: #111;
 }
 
+caption {
+  font-family: oswald, sans-serif;
+  color: #fff;
+}
+
+tr {
+  background-color: #111;
+  border: #666 solid 2px;
+}
+
+th {
+  font-family: oswald, sans-serif;
+  color: #fff;
+}
+
+td {
+  font-family: oswald, sans-serif;
+  color: #fff;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -103,6 +129,7 @@ a:focus {
       font-family: Oswald, sans-serif;
       transform: translate(40px, -320px)
     }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -113,4 +140,5 @@ a:focus {
     font-family: Oswald, sans-serif;
     transform: translate(100px, -500px)
   }
+
 }
