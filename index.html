@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>The Vault - Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
@@ -28,11 +28,12 @@
     <div class="main-banner">
       <img class="img-flex" src="images/girl-shushing.jpg" alt="">
     </div>
-    <div class="main-ad">
+    <div class="main-banner-text">
       <h2 class="normal tenamega push-1-2">Keep Your<br> <b>Secrets</b></h2>
       <a class="btn" href="">View Plans</a>
     </div>
   </div>
+  <main>
   <div class="grid island grid-middle">
     <h2 class="unit xs-1 s-1 m-1 l-1 gutter-2 push-0 exa">Words from Loyal Customers</h2>
     <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
@@ -45,6 +46,7 @@
     </div>
     <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“It is perfect for my business. I have many accounts for many different softwares and websites and I was having a very difficult time keeping track of them all. There is no other software like The Vault. I have had so much success with it and I will always support and use The Vault. It has made my life so much easier.”<br>-Michelle, 24, long time user</p>
   </div>
+</main>
 
   <footer>
     <div class="grid grid-top island">
@@ -72,8 +74,8 @@
         <form method="post" action="sign-in">
           <fieldset>
             <legend class="normal tera text-center">Sign In</legend>
-            <input class="push-1-2 micro" id="Username" type="text" placeholder="Username" required>
-            <input class="micro" id="Password" type="password" placeholder="Password" required>
+            <input id="username" type="text" placeholder="Username" required>
+            <input id="password" type="password" placeholder="Password" required>
           </fieldset>
         </form>
       </div>
