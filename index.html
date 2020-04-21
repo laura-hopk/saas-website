@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header role="banner">
     <div class="island-1">
       <h1 class="text-center push-0 island yotta"><a class="h1" href="index.html">The Vault</a></h1>
       <nav role="navigation">
@@ -24,7 +24,7 @@
     </div>
   </header>
 
-  <div role="banner" class="banner">
+  <div class="banner">
     <div class="main-banner embed embed-16by9">
       <img role="presentation" class="img-flex embed-item" src="images/girl-shushing.jpg" alt="">
     </div>
@@ -35,21 +35,19 @@
   </div>
   <main role="main" id="main" tabindex="0">
     <section>
+      <article>
     <div class="grid island grid-middle">
       <h2 class="unit xs-1 s-1 m-1 l-1 gutter-2 push-0 exa">Words from Loyal Customers</h2>
       <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
         <img role="presentation" class="img-flex" src="images/girl-in-red.jpg" alt="">
       </div>
-      <article>
       <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“My passwords were all over the place, on scrap paper, notes in my phone, and everywhere else you can think of. Now with The Vault, I can see all my passwords at any given time and they are all kept in one safe place. I never worry about forgetting my passwords ever again!” <br>-Emily, 28, long time user</p>
-      </article>
       <div class="unit s-1-2 m-1-2 l-1-2 xl-1-4 island-2">
         <img role="presentation" class="img-flex" src="images/girl-in-red.jpg" alt="">
       </div>
-      <article>
       <p class="unit s-1-2 m-1-2 l-1-2 xl-1-4 gutter milli">“It is perfect for my business. I have many accounts for many different softwares and websites and I was having a very difficult time keeping track of them all. There is no other software like The Vault. I have had so much success with it and I will always support and use The Vault. It has made my life so much easier.”<br>-Michelle, 24, long time user</p>
-    </article>
     </div>
+    </article>
     </section>
   </main>
 
@@ -76,7 +74,7 @@
         </ol>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
-        <form role="sign-in" method="post" action="sign-in">
+        <form role="search" method="post" action="sign-in">
           <fieldset>
             <legend class="normal tera text-center">Sign In</legend>
             <input id="username" type="text" placeholder="Username" required>

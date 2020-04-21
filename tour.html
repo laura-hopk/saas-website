@@ -11,10 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header role="banner">
     <div class="island-1">
       <h1 class="text-center push-0 island yotta"><a class="h1" href="index.html">The Vault</a></h1>
-      <nav>
+      <nav role="navigation">
         <ul class="grid text-center list-group grid-middle">
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a href="tour.html">About</a></li>
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a class="btn" href="...">View Plans</a></li>
@@ -26,7 +26,7 @@
 
 
 
-  <footer>
+  <footer role="contentinfo">
     <div class="grid grid-top island">
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
         <p class="push-0 footer-titles tera text-center">Contact</p>
@@ -49,11 +49,13 @@
         </ol>
       </div>
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
-        <form method="post" action="sign-in">
+        <form role="search" method="post" action="sign-in">
           <fieldset>
             <legend class="normal tera text-center">Sign In</legend>
             <input id="username" type="text" placeholder="Username" required>
+            <label for="username" class="visually-hidden">Username</label>
             <input id="password" type="password" placeholder="Password" required>
+            <label for="password" class="visually-hidden">Password</label>
           </fieldset>
         </form>
       </div>
