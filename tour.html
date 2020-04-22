@@ -11,10 +11,14 @@
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Bowlby+One|Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <ol>
+    <li><a class="skip-links" href="#main">Skip to main content</a></li>
+    <li><a class="skip-links" href="#nav">Skip to navigation</a></li>
+  </ol>
   <header role="banner">
     <div class="island-1">
       <h1 class="text-center push-0 island yotta"><a class="h1" href="index.html">The Vault</a></h1>
-      <nav role="navigation">
+      <nav id="nav" role="navigation">
         <ul class="grid text-center list-group grid-middle">
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a href="tour.html">About</a></li>
           <li class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2 giga"><a class="btn" href="#">View Plans</a></li>
@@ -24,7 +28,8 @@
     </div>
   </header>
 
-  <main role="main">
+  <main id="main" role="main">
+    <section>
     <div class="grid island about">
       <div class="unit xs-1 s-1 m-1-3 l-1-3 island">
         <h2 class="exa text-center">High Tech Security</h2>
@@ -34,10 +39,12 @@
         <h2 class="exa text-center">Organization</h2>
         <p class="push-0 milli max-length">Our software is designed by the best people to make it as accessible and usable for all people with all backgrounds. Keep your passwords organized and in one spot with our top tier software and you will never worry about losing your passwords ever again.</p>
       </div>
-      <div class="unit xs-1 s-1 m-1-3 l-1-3 island">
-        <img class="img-flex" src="images/vaultdoor.jpg" alt="">
+      <div class="embed embed-14by9 unit xs-1 s-1 m-1-3 l-1-3 island">
+        <img class="img-flex embed-item" src="images/vaultdoor.jpg" alt="">
       </div>
     </div>
+    </section>
+    <article>
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1 l-1-2">
         <h2 class="text-center zetta push-0 pad-t">Our Promise</h2>
@@ -47,6 +54,7 @@
         <img class="img-flex" src="images/key.jpg" alt="">
       </div>
     </div>
+    </article>
     <div class="island">
       <table>
         <caption class="normal exa push-0">Our Features</caption>
